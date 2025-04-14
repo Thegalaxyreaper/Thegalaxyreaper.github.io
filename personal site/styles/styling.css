@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+body {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 24px;
+    background-color: plum;
+    text-align: center;
+    list-style-position: inside;
+    }
+header {
+    padding-bottom: .75em;
+    border-bottom: 3px soild antiquewhite;
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 200%;
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    font: size 100%;
+    color: antiquewhite;
+    text-align: left;
+}
+div#banner
+{
+  margin:0 auto;
+  height: 300px; 
+  width: 900px;
+	text-align: right
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    right: 50px;
+    text-align: center;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    vertical-align: center;  
+}
+ 
